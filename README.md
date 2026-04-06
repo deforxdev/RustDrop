@@ -1,29 +1,30 @@
 # 🦀 RustDrop
 
-**RustDrop** is a high-performance, secure, and cross-platform file transfer utility built entirely in Rust. Designed for speed and simplicity, it brings a seamless "drag-and-drop" experience to local and network data sharing.
+**RustDrop** is a high-performance, secure, and cross-platform file transfer utility built with **Rust** and **HTML**. It combines the safety and speed of a Rust backend with a modern, flexible web-based interface to make sharing data as simple as a single "drop."
 
 ![Rust](https://img.shields.io/badge/language-Rust-orange?style=for-the-badge&logo=rust)
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![License](https://img.shields.io/github/license/deforxdev/RustDrop?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/deforxdev/RustDrop?style=for-the-badge)
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-* 🚀 **Blazing Fast:** Leveraging Rust's memory safety and zero-cost abstractions for maximum transfer speeds.
-* 🖥️ **Native GUI:** A clean, lightweight user interface built with performance in mind.
-* 🖱️ **Drag-and-Drop:** Send files instantly by simply dropping them into the application window.
-* 🔒 **Secure Exchange:** Implements a "Request-to-Receive" handshake system to prevent unauthorized data transfers.
-* 📦 **On-the-fly Compression:** Integrated custom archiving logic to reduce file size before transmission.
+* 🚀 **Blazing Fast:** Leveraging Rust's zero-cost abstractions for maximum network throughput.
+* 🌐 **Web-Based UI:** A beautiful and responsive interface built with HTML/CSS.
+* 🖱️ **Drag-and-Drop:** Intuitive file sharing — just drag your files into the app and send.
+* 🔒 **Secure Handshake:** Integrated "Request-to-Receive" system to ensure you only get the data you want.
+* 📦 **Built-in Compression:** Uses a custom-built Rust archiving utility to shrink files on-the-fly.
 
 ## 🛠 Tech Stack
 
-* **Core:** [Rust](https://www.rust-lang.org/) 🦀
-* **GUI Framework:** [e.g., egui / Slint / Iced] — *High-performance native rendering.*
-* **Networking:** [e.g., Tokio] — *Asynchronous I/O for stable connections.*
-* **Compression:** Custom-built Rust archiving utility.
+* **Core Engine:** [Rust](https://www.rust-lang.org/) 🦀 (The powerhouse for logic and networking)
+* **Frontend:** **HTML5 / CSS3** (For a modern, flexible, and pixel-perfect UI)
+* **Networking:** Asynchronous I/O for stable and concurrent file streams.
+* **Archiving:** Custom implementation for file packing and compression (`.rdrop` format).
 
-## 🚀 Getting Started
+## 🚀 Installation & Usage
 
-### Prerequisites
-Ensure you have the [Rust toolchain](https://www.rust-lang.org/tools/install) installed.
+### Build the project:
+```bash
+cargo build --release
