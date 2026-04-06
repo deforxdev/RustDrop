@@ -22,9 +22,3 @@
 * **Frontend:** **HTML5 / CSS3** (For a modern, flexible, and pixel-perfect UI)
 * **Networking:** Asynchronous I/O for stable and concurrent file streams.
 * **Archiving:** Custom implementation for file packing and compression (`.rdrop` format).
-
-## 🚀 Installation & Usage
-
-### Build the project:
-```bash
-cargo build --release
